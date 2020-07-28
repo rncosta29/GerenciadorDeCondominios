@@ -9,8 +9,6 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\ne
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\GerenciadorCondominios.pdb
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\GerenciadorCondominios.Views.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\GerenciadorCondominios.Views.pdb
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\EntityFramework.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -52,7 +50,6 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\ne
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.CodeDom.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -60,7 +57,6 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\ne
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -121,8 +117,6 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\ne
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
