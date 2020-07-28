@@ -150,3 +150,4 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\ne
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\GerenciadorCondominios.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\GerenciadorCondominios.pdb
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\GerenciadorCondominios.genruntimeconfig.cache
+C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Registro.cshtml.g.cs
