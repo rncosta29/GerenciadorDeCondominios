@@ -9,7 +9,7 @@ namespace GerenciadorCondominios.DAO.Interface
 {
     public interface IUsuarioRepositorio : IRepositorioGenerico<Usuario>
     {
-        int VerificarSeUsuarioExiste();
+        int VerificarSeExisteRegistro();
         Task LogarUsuario(Usuario usuario, bool lembrar);
         Task<IdentityResult> CriarUsuario(Usuario usuario, string senha);
         Task IncluirUsuarioEmFuncao(Usuario usuario, string funcao);

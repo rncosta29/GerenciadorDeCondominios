@@ -8,8 +8,8 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\bin\Debu
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.csprojAssemblyReference.cache
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.AssemblyInfoInputs.cache
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.AssemblyInfo.cs
+C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.csproj.CoreCompileInputs.cache
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.csproj.CopyComplete
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.pdb
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.genruntimeconfig.cache
-C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.DAO\obj\Debug\netcoreapp3.1\GerenciadorCondominios.DAO.csproj.CoreCompileInputs.cache

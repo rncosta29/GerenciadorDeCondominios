@@ -58,7 +58,7 @@ namespace GerenciadorCondominios.DAO.Repositorios
             }
         }
 
-        public int VerificarSeUsuarioExiste()
+        public int VerificarSeExisteRegistro()
         {
             try
             {
