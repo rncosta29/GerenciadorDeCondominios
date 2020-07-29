@@ -6,6 +6,7 @@ using GerenciadorCondominios.BLL.Models;
 using GerenciadorCondominios.DAO;
 using GerenciadorCondominios.DAO.Interface;
 using GerenciadorCondominios.DAO.Repositorios;
+using GerenciadorCondominios.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +33,11 @@ namespace GerenciadorCondominios
             services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
             services.AddAuthentication();
             services.AddAuthorization();
-            services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
+            services.ConfigurarRepositorios();
+            services.ConfigurarCookies();
+            services.ConfigurarNomeUsuario();
+            services.ConfigurarSenhaUsuario();
+
             services.AddControllersWithViews();
         }
 

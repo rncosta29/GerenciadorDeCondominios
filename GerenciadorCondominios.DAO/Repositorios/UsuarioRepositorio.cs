@@ -58,6 +58,18 @@ namespace GerenciadorCondominios.DAO.Repositorios
             }
         }
 
+        public async Task DeslogarUsuario()
+        {
+            try
+            {
+                await _gerenciadorLogin.SignOutAsync();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public int VerificarSeExisteRegistro()
         {
             try
@@ -65,6 +77,18 @@ namespace GerenciadorCondominios.DAO.Repositorios
                 return _contexto.Usuarios.Count();
             }
             catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public async Task<Usuario> PegarUsuarioPeloEMail(string email)
+        {
+            try
+            {
+                return await _gerenciadorUsuarios.FindByEmailAsync(email);
+            }
+            catch(Exception ex)
             {
                 throw ex;
             }

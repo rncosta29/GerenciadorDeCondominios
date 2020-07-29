@@ -18,3 +18,15 @@
     padding-left: 35px;
     padding-right: 35px;
 }
+
+.login {
+    position: absolute;
+    width: 40%;
+    height: 550px;
+    z-index: 15;
+    top: 40%;
+    left: 50%;
+    margin: -200px 0 0 -300px;
+    background-color: white;
+    padding: 35px;
+}
