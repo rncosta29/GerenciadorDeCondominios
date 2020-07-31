@@ -15,5 +15,6 @@ namespace GerenciadorCondominios.DAO.Interface
         Task<IdentityResult> CriarUsuario(Usuario usuario, string senha);
         Task IncluirUsuarioEmFuncao(Usuario usuario, string funcao);
         Task<Usuario> PegarUsuarioPeloEMail(string email);
+        Task AtualizarUsuario(Usuario usuario);
     }
 }
