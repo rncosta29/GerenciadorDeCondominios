@@ -156,3 +156,4 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\ne
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Registro.cshtml.g.cs
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Reprovado.cshtml.g.cs
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Index.cshtml.g.cs
+C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\GerenciarUsuarios.cshtml.g.cs

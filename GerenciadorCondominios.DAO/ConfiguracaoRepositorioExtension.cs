@@ -1,4 +1,5 @@
 ﻿using GerenciadorCondominios.DAO.Interface;
+using GerenciadorCondominios.DAO.Interfaces;
 using GerenciadorCondominios.DAO.Repositorios;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -12,6 +13,7 @@ namespace GerenciadorCondominios.DAO
         public static void ConfigurarRepositorios(this IServiceCollection services)
         {
             services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
+            services.AddTransient<IFuncaoRepositorio, FuncaoRepositorio>();
         }
     }
 }

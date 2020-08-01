@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using GerenciadorCondominios.BLL.Models;
 using GerenciadorCondominios.DAO.Interface;
+using GerenciadorCondominios.DAO.Interfaces;
 using GerenciadorCondominios.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,11 +18,13 @@ namespace GerenciadorCondominios.Controllers
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IFuncaoRepositorio _funcaoRepositorio;
 
-        public UsuarioController(IUsuarioRepositorio usuarioRepositorio, IWebHostEnvironment webHostEnvironment)
+        public UsuarioController(IUsuarioRepositorio usuarioRepositorio, IWebHostEnvironment webHostEnvironment, IFuncaoRepositorio funcaoRepositorio)
         {
             _usuarioRepositorio = usuarioRepositorio;
             _webHostEnvironment = webHostEnvironment;
+            _funcaoRepositorio = funcaoRepositorio;
         }
         public async Task<IActionResult> Index()
         {
@@ -191,6 +194,81 @@ namespace GerenciadorCondominios.Controllers
             await _usuarioRepositorio.AtualizarUsuario(usuario);
 
             return Json(true);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GerenciarUsuarios(string usuarioId, string nome)
+        {
+            if(usuarioId == null)
+            {
+                return NotFound();
+            }
+            //Ambas podem ser acessada na view dessa maneira
+            TempData["usuarioId"] = usuarioId;
+            ViewBag.Nome = nome;
+
+            Usuario usuario = await _usuarioRepositorio.PegarPeloId(usuarioId);
+
+            if(usuario == null)
+            {
+                return NotFound();
+            }
+
+            List<FuncaoUsuarioViewModel> viewModel = new List<FuncaoUsuarioViewModel>();
+
+            foreach(Funcao funcao in await _funcaoRepositorio.PegarTodos())
+            {
+                FuncaoUsuarioViewModel model = new FuncaoUsuarioViewModel
+                {
+                    FuncaoId = funcao.Id,
+                    Nome = funcao.Name,
+                    Descricao = funcao.Descricao
+                };
+
+                if(await _usuarioRepositorio.VerificarSeUsuarioEstaEmFuncao(usuario, funcao.Name))
+                {
+                    model.IsSelecionado = true;
+                }
+                else
+                {
+                    model.IsSelecionado = false;
+                }
+                viewModel.Add(model);
+            }
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> GerenciarUsuario(List<FuncaoUsuarioViewModel> model)
+        {
+            string usuarioId = TempData["usuarioId"].ToString();
+
+            Usuario usuario = await _usuarioRepositorio.PegarPeloId(usuarioId);
+
+            if(usuario == null)
+            {
+                return NotFound();
+            }
+
+            IEnumerable<string> funcoes = await _usuarioRepositorio.PegarFuncoesUsuario(usuario);
+            IdentityResult resultado = await _usuarioRepositorio.RemoverFuncoesUsuario(usuario, funcoes);
+
+            if(!resultado.Succeeded)
+            {
+                ModelState.AddModelError("", "Não foi possivel atualizar as funções do usuário");
+                return View("GerenciarUsuario", usuarioId);
+            }
+
+            resultado = await _usuarioRepositorio.IncluirUsuarioEmFuncoes(usuario,
+                model.Where(x => x.IsSelecionado == true).Select(x => x.Nome));
+
+            if (!resultado.Succeeded)
+            {
+                ModelState.AddModelError("", "Não foi possivel atualizar as funções do usuário");
+                return View("GerenciarUsuario", usuarioId);
+            }
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

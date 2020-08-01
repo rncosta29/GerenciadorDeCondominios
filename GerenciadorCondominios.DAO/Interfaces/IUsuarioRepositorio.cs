@@ -16,5 +16,9 @@ namespace GerenciadorCondominios.DAO.Interface
         Task IncluirUsuarioEmFuncao(Usuario usuario, string funcao);
         Task<Usuario> PegarUsuarioPeloEMail(string email);
         Task AtualizarUsuario(Usuario usuario);
+        Task<bool> VerificarSeUsuarioEstaEmFuncao(Usuario usuario, string funcao);
+        Task<IEnumerable<string>> PegarFuncoesUsuario(Usuario usuario);
+        Task<IdentityResult> RemoverFuncoesUsuario(Usuario usuario, IEnumerable<string> funcoes);
+        Task<IdentityResult> IncluirUsuarioEmFuncoes(Usuario usuario, IEnumerable<string> funcoes);
     }
 }
