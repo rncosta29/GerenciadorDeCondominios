@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj": {}
+    "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj": {}
   },
   "projects": {
-    "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj": {
+    "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj",
+        "projectUniqueName": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj",
         "projectName": "GerenciadorCondominios.BLL",
-        "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj",
+        "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj",
         "packagesPath": "C:\\Users\\rafael.costa\\.nuget\\packages\\",
-        "outputPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\obj\\",
+        "outputPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafael.costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj": {
+    "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj",
+        "projectUniqueName": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj",
         "projectName": "GerenciadorCondominios.DAO",
-        "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj",
+        "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj",
         "packagesPath": "C:\\Users\\rafael.costa\\.nuget\\packages\\",
-        "outputPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\obj\\",
+        "outputPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafael.costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj": {
-                "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj"
+              "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj": {
+                "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj": {
+    "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
+        "projectUniqueName": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
         "projectName": "GerenciadorCondominios",
-        "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
+        "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
         "packagesPath": "C:\\Users\\rafael.costa\\.nuget\\packages\\",
-        "outputPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios\\obj\\",
+        "outputPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafael.costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,11 +171,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj": {
-                "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj"
+              "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj": {
+                "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.BLL\\GerenciadorCondominios.BLL.csproj"
               },
-              "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj": {
-                "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj"
+              "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj": {
+                "projectPath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj"
               }
             }
           }
@@ -202,6 +202,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.5.1, )"
             }
           },
           "imports": [

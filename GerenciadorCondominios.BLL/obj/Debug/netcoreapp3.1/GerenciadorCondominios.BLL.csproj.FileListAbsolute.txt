@@ -7,3 +7,12 @@ C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.BLL\obj\Debu
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.csproj.CoreCompileInputs.cache
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.dll
 C:\Treinamento\APSNET\GerenciadorCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.pdb
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\bin\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.deps.json
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\bin\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.dll
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\bin\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.pdb
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.csprojAssemblyReference.cache
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.AssemblyInfoInputs.cache
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.AssemblyInfo.cs
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.csproj.CoreCompileInputs.cache
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.dll
+C:\Treinamento\APSNET\GerenciadorDeCondominios\GerenciadorCondominios.BLL\obj\Debug\netcoreapp3.1\GerenciadorCondominios.BLL.pdb

@@ -13,7 +13,7 @@
                     <h6 class="white-text">Moradores cadastrados</h6>
                 </div>
 
-                <div class="col s10">
+                <div class="col s2">
 
                 </div>
             </div>
@@ -64,26 +64,26 @@
                                 @Html.DisplayFor(modelItem => item.PhoneNumber)
                             </td>
 
-                            @if(item.Status == StatusConta.Analisando)
+                            @if (item.Status == StatusConta.Analisando)
                             {
                                 <td>
                                     <span class="new badge purple darken-3" data-badge-caption="" id="@item.Id">@Html.DisplayFor(modelItem => item.Status)</span>
                                 </td>
 
                                 <td class="@item.Id">
-                                    <a class="btn-floating blue darken-4 btnAprovar" onclick="AprovarUsuario('@item.Id', '@item.UserName')"><i class="material-icons">thumb_up</i></a>
-                                    <a class="btn-floating red darken-4 btnReprovar" onclick="ReprovarUsuario('@item.Id')"><i class="material-icons">thumb_down</i></a>
+                                    <a class="btn-floating blue darken-3 btnAprovar tooltip" onclick="AprovarUsuario('@item.Id', '@item.UserName')" data-position="right" data-tooltip="Aprovar Usuario"><i class="material-icons">thumb_up</i></a>
+                                    <a class="btn-floating red darken-4 btnReprovar tooltip" onclick="ReprovarUsuario('@item.Id')" data-position="right" data-tooltip="Reprovar Usuario"><i class="material-icons">thumb_down</i></a>
                                 </td>
                             }
-                            else if(item.Status == StatusConta.Aprovado)
+                            else if (item.Status == StatusConta.Aprovado)
                             {
-                            <td>
-                                <span class="new badge green darken-3" data-badge-caption="">@Html.DisplayFor(modelItem => item.Status)</span>
-                            </td>
+                                <td>
+                                    <span class="new badge green darken-3" data-badge-caption="">@Html.DisplayFor(modelItem => item.Status)</span>
+                                </td>
 
-                            <td>
-                                <a class="btn-floating blue darken-4" asp-controller="Usuario" asp-action="GerenciarUsuarios" asp-route-usuarioId="@item.Id" asp-route-name="@item.UserName"><i class="material-icons">group</i></a>
-                            </td>
+                                <td>
+                                    <a class="btn-floating blue darken-4" asp-controller="Usuario" asp-action="GerenciarUsuarios" asp-route-usuarioId="@item.Id" asp-route-name="@item.UserName"><i class="material-icons">group</i></a>
+                                </td>
                             }
                             else
                             {
@@ -100,3 +100,7 @@
     </div>
 </div>
 
+@section Scripts
+{
+    <script src="~/js/OperacoesUsuario.js"></script>
+}

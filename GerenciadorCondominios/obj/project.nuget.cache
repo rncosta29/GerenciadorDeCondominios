@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eqEoV6WkgdvuR7xhh9PlJtj3OlyRLQitvgeHw41zm/vL/n+RBCfsuOxbsfYLzjC+aAat7ENP6+EiDOPmrXKNnQ==",
+  "dgSpecHash": "XGN6Y2cv+uz7yV/pNjYDVvEEF3ADDHWgLgeFGxjMFOD0aueLbdTAZ+IvBuxG7OhL0GqboH5TrzbZPCTk4u9FPg==",
   "success": true,
-  "projectFilePath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
+  "projectFilePath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rafael.costa\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
     "C:\\Users\\rafael.costa\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\rafael.costa\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\rafael.costa\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

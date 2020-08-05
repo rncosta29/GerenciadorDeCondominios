@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6YKk/eRKaqe7NZAxEmA+KUKR2KWLm9CqzJgtMtorbj1EbpsSoigcezYH2NyflHz+XG/zIZTP1cvEi56N0+WI4Q==",
+  "dgSpecHash": "B3twrofEMef9FpX6nBqCROUHBJNKKGpj6XMjjlZoIy3twO6vOr6o7nlHInN4AOzkdSyHv+4vbRSTMxbGFeNETg==",
   "success": true,
-  "projectFilePath": "C:\\Treinamento\\APSNET\\GerenciadorCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj",
+  "projectFilePath": "C:\\Treinamento\\APSNET\\GerenciadorDeCondominios\\GerenciadorCondominios.DAO\\GerenciadorCondominios.DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafael.costa\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\rafael.costa\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
